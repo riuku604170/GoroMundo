@@ -1,106 +1,41 @@
-/* Estilos generales */
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(to bottom, #fff8f0, #ffe5d9);
-  color: #333;
-  line-height: 1.6;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOROMUNDO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a GoroMundo</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Sobre mí</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-/* Header */
-header {
-  background-color: #f28c6f;
-  color: white;
-  padding: 1.5rem 1rem;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
+  <main>
+    <section class="contenido">
+      <h2>Hola, mundo</h2>
+      <p>Esta es una página web inicial creada con HTML, CSS y JavaScript.</p>
+      <button id="boton">Haz clic aquí</button>
+    </section>
+   
+    <section class="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Me gustan los gatos como este:</p>
+      <img src="https://placekitten.com/400/250" alt="Un gato bonito" class="gato">
+    </section>
+  </main>
 
-header h1 {
-  margin: 0;
-  font-family: 'Pacifico', cursive;
-  font-size: 2.5rem;
-}
+  <footer>
+    <p>© 2025 Gregorio</p>
+  </footer>
 
-/* Navegación */
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0.5rem 0 0 0;
-}
-
-nav li {
-  display: inline-block;
-  margin: 0 15px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 5px 10px;
-  border-radius: 5px;
-  transition: background 0.3s ease;
-}
-
-nav a:hover {
-  background-color: rgba(255,255,255,0.2);
-}
-
-/* Main */
-main {
-  padding: 2rem;
-  max-width: 900px;
-  margin: auto;
-}
-
-/* Secciones */
-section {
-  background: rgba(255, 255, 255, 0.8);
-  padding: 2rem;
-  margin-bottom: 2rem;
-  border-radius: 15px;
-  box-shadow: 0 6px 10px rgba(0,0,0,0.1);
-}
-
-h2 {
-  color: #f28c6f;
-  margin-top: 0;
-}
-
-/* Botón */
-button {
-  background-color: #f28c6f;
-  border: none;
-  padding: 12px 25px;
-  color: white;
-  font-size: 1.1rem;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: transform 0.2s ease, background 0.3s ease;
-}
-
-button:hover {
-  background-color: #d86b53;
-  transform: scale(1.05);
-}
-
-/* Imagen */
-.gato {
-  max-width: 100%;
-  border-radius: 15px;
-  margin-top: 1rem;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-/* Footer */
-footer {
-  background-color: #f28c6f;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-  width: 100%;
-  font-weight: bold;
-  box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
-}
+  <script src="script.js"></script>
+</body>
+</html>
