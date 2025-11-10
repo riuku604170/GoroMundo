@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: #2b2d42;
+  background-color: #9C463D;
   color: white;
   padding: 1rem;
   text-align: center;
@@ -36,7 +36,7 @@ main {
 }
 
 button {
-  background-color: #ef233c;
+  background-color: #333232;
   border: none;
   padding: 10px 20px;
   color: white;
@@ -47,11 +47,11 @@ button {
 }
 
 button:hover {
-  background-color: #d90429;
+  background-color: #212121;
 }
 
 footer {
-  background-color: #2b2d42;
+  background-color: #9C463D;
   color: white;
   text-align: center;
   padding: 1rem;
